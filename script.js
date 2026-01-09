@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.transform = 'scale(0.95)';
         setTimeout(() => {
             this.style.transform = '';
-            // TODO: Update with your actual new website URL
-            const newWebsiteUrl = 'https://freeuniversitytools.org'; // Update this URL
+            const newWebsiteUrl = 'https://freeuniversitytools.com/';
             window.open(newWebsiteUrl, '_blank');
         }, 150);
     });
@@ -24,8 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.transform = 'scale(0.95)';
         setTimeout(() => {
             this.style.transform = '';
-            // TODO: Update with your actual donation URL (PayPal, Ko-fi, etc.)
-            const donateUrl = 'https://paypal.me/yourusername'; // Update this URL
+            const donateUrl = 'https://buy.stripe.com/4gMaEW87U7IO8C8azDcjS01';
             window.open(donateUrl, '_blank');
         }, 150);
     });
