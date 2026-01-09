@@ -260,6 +260,13 @@ body {
     max-width: 200px;
 }
 
+.logo-link {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
 .logo-wrapper {
     position: relative;
     width: 100%;
